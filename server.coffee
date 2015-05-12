@@ -1,5 +1,4 @@
 Waffel    = require 'waffel'
-pushserve = require 'pushserve'
 filters   = require './lib/filters'
 helpers   = require './lib/helpers'
 
@@ -9,6 +8,11 @@ exports.startServer = (port, path, callback) ->
     uglyUrls:         true
     filters:          filters         
     helpers:          helpers    
-    
-  wfl.init().then ->
-    wfl.generate().then callback pushserve port: port, path: path, indexPath: 'public/404.html'
+    server:           true
+    serverConfig:
+      port:       port
+      path:       path
+      indexPath:  "#{path}/404.html"    
+  
+  wfl.on 'server:start', callback
+  wfl.init().then -> wfl.generate()

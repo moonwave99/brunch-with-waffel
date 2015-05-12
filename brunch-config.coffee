@@ -46,5 +46,4 @@ exports.config =
           filters:            filters         
           helpers:            helpers
 
-        wfl.init().then ->
-          wfl.generate()
+        wfl.init().then -> wfl.generate()

@@ -21,10 +21,9 @@
     "css-brunch": ">= 1.0 < 1.8",
     "javascript-brunch": ">= 1.0 < 1.8",
     "lodash": "^3.8.0",
-    "pushserve": "^0.1.6",
     "stylus-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8",
-    "waffel": "0.0.31"
+    "waffel": "0.0.33"
   },
   "devDependencies": {}
 }
