@@ -1,0 +1,45 @@
+html
+  box-sizing border-box
+  
+*, *:before, *:after
+  box-sizing inherit
+  
+body
+  padding-top 50px
+  color $mainColor
+  background-color $contentBgColor
+  
+a
+  color $linkColor
+  &:hover
+    background-color $linkColor
+    color white
+    text-decoration none
+    
+p, ul, ol, blockquote, pre
+  margin 0 auto 2rem auto    
+
+blockquote
+  border-left-color lighten($mainColor, 20%)
+  font-style italic
+  color lighten($mainColor, 20%)
+
+.navbar-default
+  background-color rgba($navBgColor, .8)
+  border none
+  box-shadow 0 0 1rem rgba(black, .2)
+  .navbar-brand
+    color $navColor
+    font-weight bold
+  .navbar-nav
+    >li
+      >a
+        color $navColor
+.main
+  min-height calc(100vh - 6rem)
+  
+.footer
+  font-size $footerFontSize
+  font-weight 300
+  p
+    margin 0

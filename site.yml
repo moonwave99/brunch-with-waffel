@@ -1,0 +1,18 @@
+config:
+  title:                  Your Awesome Website  
+  google_analytics:       UA-XXXXXXX-Y
+  google_webmaster_tools: xyz
+  google_fonts:
+    Ubuntu: 400,700,400italic
+    Arvo:   400,700,400italic
+structure:
+  home:
+    template: home
+    url:      /
+  about:
+    template: about
+    url:      about
+  404:
+    template: '404'
+    url:      '404'
+    sitemap:  false

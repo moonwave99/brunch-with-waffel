@@ -1,0 +1,30 @@
+{
+  "author": "Your Name",
+  "name": "example-app",
+  "description": "Package description",
+  "version": "0.0.1",
+  "homepage": "",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "assetsmanager-brunch": "^1.8.1",
+    "auto-reload-brunch": ">= 1.0 < 1.8",
+    "bootstrap-styl": "^4.0.4",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "coffee-script-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "lodash": "^3.8.0",
+    "pushserve": "^0.1.6",
+    "stylus-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "waffel": "0.0.31"
+  },
+  "devDependencies": {}
+}

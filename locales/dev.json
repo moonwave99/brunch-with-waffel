@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "toggle"  : "Toggle navigation",
+    "home"    : "Home",
+    "about"   : "About"
+  },
+  "home" : {
+    "title" : "Hello there!",
+    "text"  : "Just tryin' to be polite ^.^"    
+  },
+  "notFound" : {
+    "title" : "Not Found",
+    "text"  : "Life's hard, sometimes - Go back to Homepage."
+  }
+}

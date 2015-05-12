@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block title %}{{ t('notFound.title', page) }}{% endblock %}
+
+{% block body %}
+ <h1>{{ t('notFound.title', page) }}</h1>
+ <p><a href="{{ url('home') }}">{{ t('notFound.text', page) }}</a></p>
+{% endblock %}

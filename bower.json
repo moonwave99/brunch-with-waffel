@@ -1,0 +1,8 @@
+{
+  "name": "example-app",
+  "version": "0.0.1",
+  "main": "public/js/app.js",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
