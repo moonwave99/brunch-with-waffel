@@ -2,7 +2,7 @@
 ![bwc-logo](http://brunch.io/images/svg/brunch.svg)
 
 This is HTML5 application, built with
-[Brunch](http://brunch.io) and static site generator [Waffel](http://moonwave99.github.org/waffel).
+[Brunch](http://brunch.io) and static site generator [Waffel](http://moonwave99.github.io/waffel).
 
 ## Installation
 Clone this repo manually with git or use `brunch new gh:moonwave99/brunch-with-waffel`
@@ -19,7 +19,7 @@ Clone this repo manually with git or use `brunch new gh:moonwave99/brunch-with-w
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir;
     * Place static files you want to be copied from `app/assets/` to `public/`;
-    * [Brunch site](http://brunch.io), [Waffel site](http://moonwave99.github.org/waffel).
+    * [Brunch site](http://brunch.io), [Waffel site](http://moonwave99.github.io/waffel).
 
 ---------------
 ## License
