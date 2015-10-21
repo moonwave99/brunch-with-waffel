@@ -10,7 +10,8 @@
     "url": ""
   },
   "scripts": {
-    "start": "brunch watch --server"
+    "start": "brunch watch --server",
+    "clean": "rm -rf node_modules bower_components public"
   },
   "dependencies": {
     "assetsmanager-brunch": "^1.8.1",
@@ -23,7 +24,7 @@
     "lodash": "^3.8.0",
     "stylus-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8",
-    "waffel": "0.0.39"
+    "waffel": "0.0.41"
   },
   "devDependencies": {}
 }
