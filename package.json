@@ -11,10 +11,10 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "clean": "rm -rf node_modules bower_components public"
+    "build": "brunch b -p --env production",
+    "clean": "rm -rf public dist"
   },
   "dependencies": {
-    "assetsmanager-brunch": "^1.8.1",
     "auto-reload-brunch": ">= 1.0 < 1.8",
     "bootstrap-styl": "^4.0.4",
     "clean-css-brunch": ">= 1.0 < 1.8",
@@ -24,7 +24,9 @@
     "lodash": "^3.8.0",
     "stylus-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8",
-    "waffel": "0.0.42"
+    "waffel": "0.0.47"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "assetsmanager-brunch": "^1.8.1"
+  }
 }
