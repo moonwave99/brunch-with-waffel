@@ -5,17 +5,17 @@ This is HTML5 application, built with
 [Brunch](http://brunch.io) and static site generator [Waffel](http://moonwave99.github.io/waffel).
 
 ## Installation
-Clone this repo manually with git or use `brunch new gh:moonwave99/brunch-with-waffel`
+Clone this repo manually with git or use `brunch new [targetFolder] --skeleton https://github.com/moonwave99/brunch-with-waffel`
 
 ## Getting started
 * Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X;
+    * [Node.js](http://nodejs.org) (v4.x onwards): `brew install node` on OS X, but [nvm](https://github.com/creationix/nvm) is your friend;
     * [Brunch](http://brunch.io): `npm install -g brunch`;
     * [Bower](http://bower.io): `npm install -g bower`;
     * Brunch plugins and Bower dependencies: `npm install & bower install`.
 * Run:
-    * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history);
-    * `brunch build -P -e production` — builds minified project for production, using `production`configuration of `brunch-config.coffee`.
+    * `npm start` (`brunch watch --server`) — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history);
+    * `npm run build` (`brunch build -p -e production`) — builds minified project for production, using `production`configuration of `brunch-config.coffee`.
 * Learn:
     * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir;
     * Place static files you want to be copied from `app/assets/` to `public/`;
