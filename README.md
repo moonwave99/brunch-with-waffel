@@ -5,7 +5,9 @@ This is HTML5 application, built with
 [Brunch](http://brunch.io) and static site generator [Waffel](http://moonwave99.github.io/waffel).
 
 ## Installation
-Clone this repo manually with git or use `brunch new [targetFolder] --skeleton https://github.com/moonwave99/brunch-with-waffel`
+Clone this repo manually, or use `brunch` itself:
+
+    $ brunch new [targetFolder] --skeleton https://github.com/moonwave99/brunch-with-waffel
 
 ## Getting started
 * Install (if you don't have them):
