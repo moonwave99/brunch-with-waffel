@@ -23,10 +23,10 @@
     "lodash": "^3.8.0",
     "stylus-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8",
-    "waffel": "0.0.51"
+    "waffel": "0.1.0"
   },
   "devDependencies": {
     "assetsmanager-brunch": "^1.8.1",
-    "auto-reload-brunch": ">= 1.0 < 1.8" 
+    "auto-reload-brunch": ">= 1.0 < 1.8"
   }
 }
