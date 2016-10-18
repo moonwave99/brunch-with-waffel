@@ -11,10 +11,9 @@ Clone this repo manually, or use `brunch` itself:
 
 ## Getting started
 * Install (if you don't have them):
-    * [Node.js](http://nodejs.org) (v4.x onwards): `brew install node` on OS X, but [nvm](https://github.com/creationix/nvm) is your friend;
+    * [Node.js](http://nodejs.org) (v6.x onwards): `brew install node` on OS X, but [nvm](https://github.com/creationix/nvm) is your friend;
     * [Brunch](http://brunch.io): `npm install -g brunch`;
-    * [Bower](http://bower.io): `npm install -g bower`;
-    * Brunch plugins and Bower dependencies: `npm install & bower install`.
+    * Brunch plugins and other dependencies: `npm install`.
 * Run:
     * `npm start` (`brunch watch --server`) — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history);
     * `npm run build` (`brunch build -p -e production`) — builds minified project for production, using `production`configuration of `brunch-config.coffee`.
@@ -29,7 +28,7 @@ The MIT license.
 
 Copyright (c) 2012 Paul Miller (http://paulmillr.com/) [brunch]
 
-Copyright (c) 2015 Diego Caponera (http://www.diegocaponera.com) [this skeleton]
+Copyright (c) 2016 Diego Caponera (http://www.diegocaponera.com) [this skeleton]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
