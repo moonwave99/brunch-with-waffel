@@ -40,13 +40,13 @@ exports.config =
       sourceMaps: false
       paths:
         public: 'production'
+      hooks:
+        onCompile: (generatedFiles) ->
+          wfl = new Waffel
+            domain:             'http//example.com'
+            destinationFolder:  'production'
+            uglyUrls:           true
+            filters:            filters
+            helpers:            helpers
 
-      onCompile: (generatedFiles) ->
-        wfl = new Waffel
-          domain:             'http//example.com'
-          destinationFolder:  'production'
-          uglyUrls:           true
-          filters:            filters
-          helpers:            helpers
-
-        wfl.init().then -> wfl.generate()
+          wfl.init().then -> wfl.generate()
