@@ -14,7 +14,7 @@ exports.config =
 
     stylesheets:
       joinTo:
-        'css/app.css': /^(vendor|bower_components|app)/
+        'css/app.css': /^(vendor|app)/
 
   server:
     path: 'server.coffee'
