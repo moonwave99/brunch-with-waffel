@@ -17,7 +17,7 @@ exports.config =
         'css/app.css': /^(vendor|app)/
 
   server:
-    path: 'server.coffee'
+    path: 'lib/server.coffee'
 
   conventions:
     assets: /(assets|vendor\/assets|font)/

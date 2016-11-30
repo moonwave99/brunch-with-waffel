@@ -1,10 +1,11 @@
 Waffel    = require 'waffel'
-filters   = require './lib/filters'
-helpers   = require './lib/helpers'
+filters   = require './filters'
+helpers   = require './helpers'
 
 exports.startServer = (port, path, callback) ->
+  domain = process.env.DOMAIN || 'localhost'
   wfl = new Waffel
-    domain:           "http://localhost:#{port}"
+    domain:           "http://#{domain}:#{port}"
     uglyUrls:         true
     filters:          filters
     helpers:          helpers
